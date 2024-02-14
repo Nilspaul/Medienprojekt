@@ -1,0 +1,177 @@
+/* MAIN */
+main {
+    padding: 1vw;
+    text-align: center;
+    background-image: URL("../../../../res/images/tafel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
+}
+
+section {
+    border-radius: 1em;
+    height: 100%;
+}
+
+.img-section {
+    position: absolute; 
+    top: 50%; 
+    right: 50%; 
+    transform: translate(50%,-50%); 
+}
+
+/* MAIN - MASCHINENBAU */
+    /* SEMESTERAUSWAHL */  
+    .boxerstes {
+        margin-top: 20vh;
+        margin-left: 25vw;
+    }
+
+    .erstes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        width: auto;
+        height: 20vw; 
+    }
+
+    .boxzweites {
+        position: relative; 
+        top: -17.6vw; 
+        left: 4vw;
+        width: 15vw;
+    }
+    .zweites {
+        box-sizing: border-box;
+        border-radius: 100px;
+        width: auto;
+        height: 22.5vw;  
+    }
+
+    .boxdrittes {
+        top: -20vw;
+        left: 0.5vw;
+        position: relative;
+        width:  17.5vw;
+    }
+    .drittes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 25vw;
+        width: auto;
+    }
+    .boxviertes {
+        position: relative; 
+        left: 23.5vw;
+        top: -43vw;
+        width: 20vw;
+    }
+    .viertes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 27.5vw;
+        width: auto;
+    }
+    .boxfunftes {
+        position: relative;
+        left: 14.5vw;
+        top: -46.5vw; 
+        width: 22.5vw;
+    }
+    .funftes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 30vw;
+        width: auto;
+        z-index: 2;
+    }
+
+    .boxsechstes {
+        position: relative; 
+        left: -13.5vw;
+        top: -66vw;
+        width: 25.5vw;
+    }
+    .sechstes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 32.5vw;
+        width: auto;
+    }
+
+    .boxPraxisInnen{
+      margin-top: -45vw;
+   
+    }
+
+    .boxsiebtes {
+        position: relative;
+        left: 22.5vw;
+        top: -84.5vw;
+        
+        width: 27.5vw;
+    }
+    .siebtes {
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 33vw;
+        width: auto;
+        opacity: 0.5;
+    }
+
+    .boxpraxisphase {
+        position: relative;
+        left: 4vw;
+        top: 16vw; 
+        width: 27.5vw;
+    } 
+    .praxisphase {
+        height: 11vw;
+        width: auto;
+    }
+
+    .boxBachelor {
+        position: relative;
+        left: 5vw;
+        top: 14.25vw; 
+        width: 27.5vw;
+    } 
+    .Bachelor {
+        height: 11vw;
+        width: auto;
+    }
+     .boxKolloquium {
+        position: relative;
+        left: -5vw;
+        top: -5vw; 
+        width: 27.5vw;
+    } 
+    .Kolloquium{
+        height: 9vw;
+        width: auto;
+    }
+    .boxgrund {
+        position: relative;
+        left: -20vw;
+        top: -168vw; 
+        width: 27.5vw;
+    }
+    .grund{
+        height: 12vw;
+        width: auto;
+    }
+    @font-face {
+        font-family: 'Chalk';
+        src: URL('../../../res/Fonts/chawp.ttf') format('truetype');
+      }
+
+    @import url('http://fonts.cdnfonts.com/css/callie-chalk-font');
+   figcaption{
+    font-size: 2vw;
+    color: white;
+    font-family: 'Callie Chalk Font', sans-serif;
+   }

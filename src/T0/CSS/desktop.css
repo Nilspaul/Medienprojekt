@@ -1,0 +1,205 @@
+@media only screen and (min-device-width: 480px) and (max-device-width: 900px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5vw;
+        justify-content: space-between;
+    }
+     
+    header h1{
+        position: absolute;
+        padding-top: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center; 
+    }
+
+    .kreuz {
+        position: unset;
+        width: auto;
+        height: 7.5vw;
+        top: 0vh;
+        float:right;
+        
+    }
+
+        .image {
+            height: 100%;
+            width: auto;        
+        }
+
+ 
+
+    .logo {
+        width: auto;
+        height: 5.5vw;
+        float:left;
+
+    }
+
+    .text-section{
+        font-size: 2vh;
+    }
+    nav li a {
+        margin-top: 2%;
+        font-size: 6vw;
+        text-decoration: none;
+        display: inline-block;
+        letter-spacing: 0.1vw;
+        color: white;
+        -webkit-text-stroke: 0vw white;
+    }
+    .navfontmiddle {
+        margin-left: 6vw;
+        font-size: 4vw;
+       
+    }
+
+    .tafelimg{
+        height: 30vh;
+    }
+
+    footer ul { 
+        font-size: 1.5vw;
+    }
+
+    .aussenLinks{
+        max-height: 15vh;
+        margin-right: unset;
+        height: 11vw;
+     }
+     .aussenRechts{
+        max-height: 15vh;
+        margin-left: unset;
+        height: 11vw;
+     }
+     .mitte{
+        max-height: 23vh;
+        margin-left: unset;
+        height: 20vw;
+     }
+
+     
+     .mList {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 5vw;
+        padding-right: 3vw;
+        list-style: none;
+        font-weight:normal;
+        font-size: 10vw;
+        position: relative;
+      }
+}
+
+@media only screen and (min-device-width: 900px){
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1vw;
+        justify-content: space-between;
+    }
+
+    header h1{
+        position: absolute;
+        padding-top: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center; 
+    }
+     
+    .kreuz {
+        position: unset;
+        width: auto;
+        height: 7.5vh;
+        top: 0vh;
+        float:right;
+        
+    }
+
+    .logo {
+        width: auto;
+        height: 6.5vh;
+        float:left;
+    }
+
+    .image {
+        height: 100%;
+        width: auto;        
+    }
+
+
+    .text-section{
+        font-size: 2vh;
+    }
+
+    .img-sectionModul{
+        margin-top: 10vh;
+    }
+
+    .sectionSmallNav{
+       
+       
+        top: 11.5vh;
+        bottom: unset;
+     }
+     
+     nav li a {
+        margin-top: 2%;
+        font-size: 4vw;
+        text-decoration: none;
+        display: inline-block;
+        letter-spacing: 0.1vw;
+        color: white;
+        -webkit-text-stroke: 0vw white;
+    }
+    .navfontmiddle {
+        margin-left: 4vw;
+        font-size: 2vw;
+       
+    }
+
+    .tafelimg{
+        height: 40vh;
+    }
+
+    footer ul { 
+        font-size: 1vw;
+    }
+    .aussenLinks{
+        max-height: 20vh;
+        margin-right: unset;
+        height: 11vw;
+     }
+     .aussenRechts{
+        max-height: 20vh;
+        margin-left: unset;
+        height: 11vw;
+     }
+     .mitte{
+        max-height: 30vh;
+        margin-left: unset;
+        height: 20vw;
+     }
+
+
+     .mList {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 10vw;
+        padding-right: 3vw;
+        list-style: none;
+        font-weight:normal;
+        font-size: 0.7vw;
+        position: relative;
+      }
+
+}
+

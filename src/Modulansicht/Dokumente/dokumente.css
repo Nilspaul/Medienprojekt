@@ -1,0 +1,80 @@
+main {
+  padding: 1vw;
+  text-align: center;
+  background-image: URL("https://www.ggs-frelenberg.de/files/ggs-frelenberg/theme/img/tafel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section {
+  border-radius: 1em;
+  height: 100%;
+}
+
+.img-section {
+  position: absolute; 
+  top: 50%; 
+  right: 50%; 
+  transform: translate(50%,-50%); 
+}
+
+
+.dropbtn {
+    background-color: #80ba24;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .dropdown {
+    margin-top: 4vh;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 5vh;
+  }
+  
+  .dropdown-content {
+    display: none;
+    opacity: 90%;
+    position: relative;
+    background-color: #4a5c66;
+    width: 90%;
+    top: 1vh;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+  
+  .dropdown-content a {
+    color: white;
+    font-size: 1.5vh;
+    padding: 1vh 2vh;
+    text-decoration: none;
+    display: block;
+}
+  
+
+  
+  .show {display: block;}
+
+  main div a{
+  
+    border: dashed;
+    border-width: 0.1vh;
+    border-color: #80ba24;
+    color: white;
+    
+  }
+
+  main div a:hover{
+    background-color: #80ba24;
+    color: white;
+    border-color:#4a5c66;
+  }
+  
+  
